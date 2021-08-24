@@ -1,0 +1,52 @@
+{
+  "webresources": [
+    {
+      "profile": "default,debug",
+      "root": "Webresources/",
+      "files": [
+        {
+          "uniquename": "myxrm_/js1.js",
+          "file": "js1.js",
+          "description": ""
+        },
+        {
+          "uniquename": "myxrm_/FilterLookup.js",
+          "file": "FilterLookup.js",
+          "description": ""
+        },
+        {
+          "uniquename": "myxrm_/regionAuto.js",
+          "file": "regionAuto.js",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "profile": "default,debug",
+      "solution_uniquename": "spkltestsolution",
+      "packagepath": "package",
+      "solutionpath": "solution_{0}_{1}_{2}_{3}.zip",
+      "packagetype": "unmanaged",
+      "increment_on_import": false,
+      "map": [
+        {
+          "map": "path",
+          "from": "PluginAssemblies\\**\\*.*",
+          "to": "..\\..\\Plugins\\bin\\**"
+        },
+        {
+          "map": "path",
+          "from": "WebResources\\*.*",
+          "to": "..\\..\\Webresources\\Webresources\\**"
+        },
+        {
+          "map": "path",
+          "from": "WebResources\\**\\*.*",
+          "to": "..\\..\\Webresources\\Webresources\\**"
+        }
+      ]
+    }
+  ]
+}
