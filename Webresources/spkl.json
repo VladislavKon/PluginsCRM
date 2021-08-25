@@ -3,19 +3,14 @@
     {
       "profile": "default,debug",
       "root": "Webresources/",
-      "files": [
-        {
-          "uniquename": "myxrm_/js1.js",
-          "file": "js1.js",
-          "description": ""
-        },
+      "files": [        
         {
           "uniquename": "myxrm_/FilterLookup.js",
           "file": "FilterLookup.js",
           "description": ""
         },
         {
-          "uniquename": "myxrm_/regionAuto.js",
+          "uniquename": "myxrm_/RegionAuto.js",
           "file": "regionAuto.js",
           "description": ""
         }

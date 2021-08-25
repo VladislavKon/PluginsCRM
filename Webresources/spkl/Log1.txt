@@ -332,3 +332,329 @@
 17:34:34	Publish complete.
 17:34:34	Processed 1 section(s)
 17:34:34	Processed 1 config(s)
+11:29:55	Deploying WebResources
+11:29:55	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+11:30:48	Deploying WebResources
+11:30:48	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+11:30:48	myxrm_/FilterLookup.js has not changed, skipping...
+11:30:49	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+11:30:52	Deployed 1 webresource(s)
+11:30:52	Publishing 1 webresources...
+11:31:15	Publish complete.
+11:31:15	Processed 1 section(s)
+11:31:15	Processed 1 config(s)
+12:06:57	Deploying WebResources
+12:06:57	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+12:06:58	myxrm_/FilterLookup.js has not changed, skipping...
+12:06:58	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+12:06:59	Deployed 1 webresource(s)
+12:06:59	Publishing 1 webresources...
+12:07:10	Publish complete.
+12:07:10	Processed 1 section(s)
+12:07:10	Processed 1 config(s)
+12:18:37	Deploying WebResources
+12:18:37	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+12:18:38	myxrm_/FilterLookup.js has not changed, skipping...
+12:18:38	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+12:18:39	Deployed 1 webresource(s)
+12:18:39	Publishing 1 webresources...
+12:18:49	Publish complete.
+12:18:49	Processed 1 section(s)
+12:18:49	Processed 1 config(s)
+12:57:15	Deploying WebResources
+12:57:16	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+12:57:16	myxrm_/FilterLookup.js has not changed, skipping...
+12:57:16	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+12:57:17	Deployed 1 webresource(s)
+12:57:17	Publishing 1 webresources...
+12:57:25	Publish complete.
+12:57:25	Processed 1 section(s)
+12:57:25	Processed 1 config(s)
+13:19:06	Deploying WebResources
+13:19:06	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+13:19:07	myxrm_/FilterLookup.js has not changed, skipping...
+13:19:07	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+13:19:08	Deployed 1 webresource(s)
+13:19:08	Publishing 1 webresources...
+13:19:17	Publish complete.
+13:19:17	Processed 1 section(s)
+13:19:17	Processed 1 config(s)
+13:24:32	Deploying WebResources
+13:24:32	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+13:24:32	myxrm_/FilterLookup.js has not changed, skipping...
+13:24:32	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+13:24:33	Deployed 1 webresource(s)
+13:24:33	Publishing 1 webresources...
+13:24:39	Publish complete.
+13:24:39	Processed 1 section(s)
+13:24:39	Processed 1 config(s)
+13:31:41	Deploying WebResources
+13:31:41	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+13:31:41	myxrm_/FilterLookup.js has not changed, skipping...
+13:31:41	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+13:31:43	Deployed 1 webresource(s)
+13:31:43	Publishing 1 webresources...
+13:31:48	Publish complete.
+13:31:48	Processed 1 section(s)
+13:31:48	Processed 1 config(s)
+13:41:27	Deploying WebResources
+13:41:28	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+13:41:28	myxrm_/FilterLookup.js has not changed, skipping...
+13:41:28	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+13:41:32	Deployed 1 webresource(s)
+13:41:32	Publishing 1 webresources...
+13:41:37	Publish complete.
+13:41:37	Processed 1 section(s)
+13:41:37	Processed 1 config(s)
+14:20:53	Deploying WebResources
+14:20:53	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+14:20:54	myxrm_/FilterLookup.js has not changed, skipping...
+14:20:54	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+14:20:55	Deployed 1 webresource(s)
+14:20:55	Publishing 1 webresources...
+14:21:06	Publish complete.
+14:21:06	Processed 1 section(s)
+14:21:06	Processed 1 config(s)
+14:32:49	Deploying WebResources
+14:32:49	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+14:32:49	myxrm_/FilterLookup.js has not changed, skipping...
+14:32:49	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+14:32:50	Deployed 1 webresource(s)
+14:32:50	Publishing 1 webresources...
+14:32:55	Publish complete.
+14:32:55	Processed 1 section(s)
+14:32:55	Processed 1 config(s)
+14:43:59	Deploying WebResources
+14:43:59	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+14:43:59	myxrm_/FilterLookup.js has not changed, skipping...
+14:44:00	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+14:44:00	Deployed 1 webresource(s)
+14:44:00	Publishing 1 webresources...
+14:44:05	Publish complete.
+14:44:05	Processed 1 section(s)
+14:44:05	Processed 1 config(s)
+15:31:35	Deploying WebResources
+15:31:35	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:31:35	myxrm_/FilterLookup.js has not changed, skipping...
+15:31:35	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+15:31:37	Deployed 1 webresource(s)
+15:31:37	Publishing 1 webresources...
+15:31:47	Publish complete.
+15:31:47	Processed 1 section(s)
+15:31:47	Processed 1 config(s)
+15:34:42	Deploying WebResources
+15:34:42	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:34:43	myxrm_/FilterLookup.js has not changed, skipping...
+15:34:43	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+15:34:44	Deployed 1 webresource(s)
+15:34:44	Publishing 1 webresources...
+15:34:52	Publish complete.
+15:34:52	Processed 1 section(s)
+15:34:52	Processed 1 config(s)
+15:38:24	Deploying WebResources
+15:38:25	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:38:25	myxrm_/FilterLookup.js has not changed, skipping...
+15:38:25	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+15:38:26	Deployed 1 webresource(s)
+15:38:26	Publishing 1 webresources...
+15:38:31	Publish complete.
+15:38:31	Processed 1 section(s)
+15:38:31	Processed 1 config(s)
+15:45:08	Deploying WebResources
+15:45:08	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:45:08	myxrm_/FilterLookup.js has not changed, skipping...
+15:45:08	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+15:45:09	Deployed 1 webresource(s)
+15:45:09	Publishing 1 webresources...
+15:45:14	Publish complete.
+15:45:14	Processed 1 section(s)
+15:45:14	Processed 1 config(s)
+15:49:29	Deploying WebResources
+15:49:29	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:49:29	myxrm_/FilterLookup.js has not changed, skipping...
+15:49:30	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+15:49:30	Deployed 1 webresource(s)
+15:49:30	Publishing 1 webresources...
+15:49:36	Publish complete.
+15:49:36	Processed 1 section(s)
+15:49:36	Processed 1 config(s)
+15:53:41	Deploying WebResources
+15:53:41	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:53:41	myxrm_/FilterLookup.js has not changed, skipping...
+15:53:42	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+15:53:42	Deployed 1 webresource(s)
+15:53:42	Publishing 1 webresources...
+15:53:47	Publish complete.
+15:53:47	Processed 1 section(s)
+15:53:47	Processed 1 config(s)
+15:57:38	Deploying WebResources
+15:57:38	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:57:38	myxrm_/FilterLookup.js has not changed, skipping...
+15:57:38	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+15:57:39	Deployed 1 webresource(s)
+15:57:39	Publishing 1 webresources...
+15:57:44	Publish complete.
+15:57:44	Processed 1 section(s)
+15:57:44	Processed 1 config(s)
+16:01:39	Deploying WebResources
+16:01:39	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:01:40	myxrm_/FilterLookup.js has not changed, skipping...
+16:01:40	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+16:01:40	Deployed 1 webresource(s)
+16:01:40	Publishing 1 webresources...
+16:01:46	Publish complete.
+16:01:46	Processed 1 section(s)
+16:01:46	Processed 1 config(s)
+16:05:09	Deploying WebResources
+16:05:09	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:05:09	myxrm_/FilterLookup.js has not changed, skipping...
+16:05:10	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+16:05:10	Deployed 1 webresource(s)
+16:05:10	Publishing 1 webresources...
+16:05:15	Publish complete.
+16:05:15	Processed 1 section(s)
+16:05:15	Processed 1 config(s)
+16:07:35	Deploying WebResources
+16:07:35	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:07:35	myxrm_/FilterLookup.js has not changed, skipping...
+16:07:35	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+16:07:36	Deployed 1 webresource(s)
+16:07:36	Publishing 1 webresources...
+16:07:40	Publish complete.
+16:07:40	Processed 1 section(s)
+16:07:40	Processed 1 config(s)
+16:09:21	Deploying WebResources
+16:09:21	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:09:21	myxrm_/FilterLookup.js has not changed, skipping...
+16:09:22	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+16:09:22	Deployed 1 webresource(s)
+16:09:22	Publishing 1 webresources...
+16:09:27	Publish complete.
+16:09:27	Processed 1 section(s)
+16:09:27	Processed 1 config(s)
+16:11:51	Deploying WebResources
+16:11:51	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:11:51	myxrm_/FilterLookup.js has not changed, skipping...
+16:11:51	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+16:11:52	Deployed 1 webresource(s)
+16:11:52	Publishing 1 webresources...
+16:11:57	Publish complete.
+16:11:57	Processed 1 section(s)
+16:11:57	Processed 1 config(s)
+16:19:32	Deploying WebResources
+16:19:32	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:19:33	myxrm_/FilterLookup.js has not changed, skipping...
+16:19:33	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+16:19:34	Deployed 1 webresource(s)
+16:19:34	Publishing 1 webresources...
+16:19:38	Publish complete.
+16:19:38	Processed 1 section(s)
+16:19:38	Processed 1 config(s)
+16:25:34	Deploying WebResources
+16:25:34	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:25:34	myxrm_/FilterLookup.js has not changed, skipping...
+16:25:35	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+16:25:35	Deployed 1 webresource(s)
+16:25:35	Publishing 1 webresources...
+16:25:40	Publish complete.
+16:25:40	Processed 1 section(s)
+16:25:40	Processed 1 config(s)
+16:39:21	Deploying WebResources
+16:39:21	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:39:21	myxrm_/FilterLookup.js has not changed, skipping...
+16:39:22	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+16:39:22	Deployed 1 webresource(s)
+16:39:22	Publishing 1 webresources...
+16:39:28	Publish complete.
+16:39:28	Processed 1 section(s)
+16:39:28	Processed 1 config(s)
+16:43:03	Deploying WebResources
+16:43:03	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:43:04	myxrm_/FilterLookup.js has not changed, skipping...
+16:43:04	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+16:43:05	Deployed 1 webresource(s)
+16:43:05	Publishing 1 webresources...
+16:43:11	Publish complete.
+16:43:11	Processed 1 section(s)
+16:43:11	Processed 1 config(s)
+16:54:29	Deploying WebResources
+16:54:29	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:54:29	myxrm_/FilterLookup.js has not changed, skipping...
+16:54:30	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+16:54:30	Deployed 1 webresource(s)
+16:54:30	Publishing 1 webresources...
+16:54:35	Publish complete.
+16:54:35	Processed 1 section(s)
+16:54:35	Processed 1 config(s)
+17:08:02	Deploying WebResources
+17:08:03	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:08:03	myxrm_/FilterLookup.js has not changed, skipping...
+17:08:03	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+17:08:04	Deployed 1 webresource(s)
+17:08:04	Publishing 1 webresources...
+17:08:09	Publish complete.
+17:08:09	Processed 1 section(s)
+17:08:09	Processed 1 config(s)
+17:16:29	Deploying WebResources
+17:16:30	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:16:30	myxrm_/FilterLookup.js has not changed, skipping...
+17:16:30	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+17:16:31	Deployed 1 webresource(s)
+17:16:31	Publishing 1 webresources...
+17:16:35	Publish complete.
+17:16:35	Processed 1 section(s)
+17:16:35	Processed 1 config(s)
+17:23:34	Deploying WebResources
+17:23:34	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:23:34	myxrm_/FilterLookup.js has not changed, skipping...
+17:23:35	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+17:23:35	Deployed 1 webresource(s)
+17:23:35	Publishing 1 webresources...
+17:23:40	Publish complete.
+17:23:40	Processed 1 section(s)
+17:23:40	Processed 1 config(s)
+17:29:42	Deploying WebResources
+17:29:42	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:29:42	myxrm_/FilterLookup.js has not changed, skipping...
+17:29:42	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+17:29:43	Deployed 1 webresource(s)
+17:29:43	Publishing 1 webresources...
+17:29:48	Publish complete.
+17:29:48	Processed 1 section(s)
+17:29:48	Processed 1 config(s)
+17:55:48	Deploying WebResources
+17:55:48	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:55:48	myxrm_/FilterLookup.js has not changed, skipping...
+17:55:48	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+17:55:49	Deployed 1 webresource(s)
+17:55:49	Publishing 1 webresources...
+17:55:54	Publish complete.
+17:55:54	Processed 1 section(s)
+17:55:54	Processed 1 config(s)
+18:02:57	Deploying WebResources
+18:02:57	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:02:58	myxrm_/FilterLookup.js has not changed, skipping...
+18:02:58	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+18:02:59	Deployed 1 webresource(s)
+18:02:59	Publishing 1 webresources...
+18:03:05	Publish complete.
+18:03:05	Processed 1 section(s)
+18:03:05	Processed 1 config(s)
+18:06:30	Deploying WebResources
+18:06:30	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:06:30	myxrm_/FilterLookup.js has not changed, skipping...
+18:06:30	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+18:06:31	Deployed 1 webresource(s)
+18:06:31	Publishing 1 webresources...
+18:06:36	Publish complete.
+18:06:36	Processed 1 section(s)
+18:06:36	Processed 1 config(s)
+18:10:33	Deploying WebResources
+18:10:33	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:10:34	myxrm_/FilterLookup.js has not changed, skipping...
+18:10:34	Updating Webresource 'regionAuto.js' -> 'myxrm_/RegionAuto.js'
+18:10:35	Deployed 1 webresource(s)
+18:10:35	Publishing 1 webresources...
+18:10:40	Publish complete.
+18:10:40	Processed 1 section(s)
+18:10:40	Processed 1 config(s)
