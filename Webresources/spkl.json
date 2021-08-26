@@ -3,7 +3,7 @@
     {
       "profile": "default,debug",
       "root": "Webresources/",
-      "files": [        
+      "files": [
         {
           "uniquename": "myxrm_/FilterLookup.js",
           "file": "FilterLookup.js",
@@ -12,6 +12,11 @@
         {
           "uniquename": "myxrm_/RegionAuto.js",
           "file": "regionAuto.js",
+          "description": ""
+        },
+        {
+          "uniquename": "myxrm_/FieldsChecker.js",
+          "file": "FieldsChecker.js",
           "description": ""
         }
       ]

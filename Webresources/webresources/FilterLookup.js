@@ -9,8 +9,7 @@
         throw new Error(e.Message);
     }
 }
-function addCustomeLookupFilter() {
-    var functionName = "addCustomeLookupFilter";
+function addCustomeLookupFilter() {    
     try {
         var RecordId = Xrm.Page.data.entity.getId();
         var Region = Xrm.Page.getAttribute("new_region").getValue();
