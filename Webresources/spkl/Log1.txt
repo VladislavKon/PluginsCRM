@@ -727,3 +727,133 @@
 14:05:24	Publish complete.
 14:05:24	Processed 1 section(s)
 14:05:24	Processed 1 config(s)
+15:33:12	Deploying WebResources
+15:33:12	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:33:12	myxrm_/FilterLookup.js has not changed, skipping...
+15:33:13	myxrm_/RegionAuto.js has not changed, skipping...
+15:33:13	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+15:33:14	Deployed 1 webresource(s)
+15:33:14	Publishing 1 webresources...
+15:33:19	Publish complete.
+15:33:19	Processed 1 section(s)
+15:33:19	Processed 1 config(s)
+15:35:18	Deploying WebResources
+15:35:18	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:35:19	myxrm_/FilterLookup.js has not changed, skipping...
+15:35:19	myxrm_/RegionAuto.js has not changed, skipping...
+15:35:19	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+15:35:20	Deployed 1 webresource(s)
+15:35:20	Publishing 1 webresources...
+15:35:25	Publish complete.
+15:35:25	Processed 1 section(s)
+15:35:25	Processed 1 config(s)
+15:40:28	Deploying WebResources
+15:40:28	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:40:28	myxrm_/FilterLookup.js has not changed, skipping...
+15:40:28	myxrm_/RegionAuto.js has not changed, skipping...
+15:40:29	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+15:40:29	Deployed 1 webresource(s)
+15:40:29	Publishing 1 webresources...
+15:40:34	Publish complete.
+15:40:34	Processed 1 section(s)
+15:40:34	Processed 1 config(s)
+16:43:52	Deploying WebResources
+16:43:52	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:43:52	myxrm_/FilterLookup.js has not changed, skipping...
+16:43:52	myxrm_/RegionAuto.js has not changed, skipping...
+16:43:53	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+16:43:54	Deployed 1 webresource(s)
+16:43:54	Publishing 1 webresources...
+16:43:59	Publish complete.
+16:43:59	Processed 1 section(s)
+16:43:59	Processed 1 config(s)
+16:53:23	Deploying WebResources
+16:53:23	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:53:23	myxrm_/FilterLookup.js has not changed, skipping...
+16:53:23	myxrm_/RegionAuto.js has not changed, skipping...
+16:53:23	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+16:53:24	Deployed 1 webresource(s)
+16:53:24	Publishing 1 webresources...
+16:53:29	Publish complete.
+16:53:29	Processed 1 section(s)
+16:53:29	Processed 1 config(s)
+17:21:49	Deploying WebResources
+17:21:50	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:21:50	myxrm_/FilterLookup.js has not changed, skipping...
+17:21:50	myxrm_/RegionAuto.js has not changed, skipping...
+17:21:50	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+17:21:51	Deployed 1 webresource(s)
+17:21:51	Publishing 1 webresources...
+17:21:56	Publish complete.
+17:21:56	Processed 1 section(s)
+17:21:56	Processed 1 config(s)
+17:31:29	Deploying WebResources
+17:31:29	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:31:29	myxrm_/FilterLookup.js has not changed, skipping...
+17:31:29	myxrm_/RegionAuto.js has not changed, skipping...
+17:31:30	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+17:31:30	Deployed 1 webresource(s)
+17:31:30	Publishing 1 webresources...
+17:31:35	Publish complete.
+17:31:35	Processed 1 section(s)
+17:31:35	Processed 1 config(s)
+17:34:29	Deploying WebResources
+17:34:29	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:34:30	myxrm_/FilterLookup.js has not changed, skipping...
+17:34:30	myxrm_/RegionAuto.js has not changed, skipping...
+17:34:30	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+17:34:31	Deployed 1 webresource(s)
+17:34:31	Publishing 1 webresources...
+17:34:35	Publish complete.
+17:34:35	Processed 1 section(s)
+17:34:35	Processed 1 config(s)
+17:41:42	Deploying WebResources
+17:41:42	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:41:43	myxrm_/FilterLookup.js has not changed, skipping...
+17:41:43	myxrm_/RegionAuto.js has not changed, skipping...
+17:41:43	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+17:41:44	Deployed 1 webresource(s)
+17:41:44	Publishing 1 webresources...
+17:41:49	Publish complete.
+17:41:49	Processed 1 section(s)
+17:41:49	Processed 1 config(s)
+17:47:29	Deploying WebResources
+17:47:29	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:47:29	myxrm_/FilterLookup.js has not changed, skipping...
+17:47:30	myxrm_/RegionAuto.js has not changed, skipping...
+17:47:30	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+17:47:30	Deployed 1 webresource(s)
+17:47:30	Publishing 1 webresources...
+17:47:34	Publish complete.
+17:47:34	Processed 1 section(s)
+17:47:35	Processed 1 config(s)
+18:08:43	Deploying WebResources
+18:08:43	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:08:43	myxrm_/FilterLookup.js has not changed, skipping...
+18:08:43	myxrm_/RegionAuto.js has not changed, skipping...
+18:08:43	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+18:08:44	Deployed 1 webresource(s)
+18:08:44	Publishing 1 webresources...
+18:08:49	Publish complete.
+18:08:49	Processed 1 section(s)
+18:08:49	Processed 1 config(s)
+18:46:02	Deploying WebResources
+18:46:02	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:46:03	Updating Webresource 'FilterLookup.js' -> 'myxrm_/FilterLookup.js'
+18:46:04	myxrm_/RegionAuto.js has not changed, skipping...
+18:46:04	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+18:46:04	Deployed 2 webresource(s)
+18:46:04	Publishing 2 webresources...
+18:46:10	Publish complete.
+18:46:10	Processed 1 section(s)
+18:46:10	Processed 1 config(s)
+18:48:21	Deploying WebResources
+18:48:21	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:48:22	myxrm_/FilterLookup.js has not changed, skipping...
+18:48:22	myxrm_/RegionAuto.js has not changed, skipping...
+18:48:22	Updating Webresource 'FieldsChecker.js' -> 'myxrm_/FieldsChecker.js'
+18:48:23	Deployed 1 webresource(s)
+18:48:23	Publishing 1 webresources...
+18:48:27	Publish complete.
+18:48:27	Processed 1 section(s)
+18:48:27	Processed 1 config(s)

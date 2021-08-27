@@ -10,8 +10,7 @@
     }
 }
 function addCustomeLookupFilter() {    
-    try {
-        var RecordId = Xrm.Page.data.entity.getId();
+    try {        
         var Region = Xrm.Page.getAttribute("new_region").getValue();
         if (Region != null && Region != undefined) {
             fetchXml = "<filter type='and'><condition attribute='new_region' operator='like' value='%" + Region[0].name + "%' /></filter>";
