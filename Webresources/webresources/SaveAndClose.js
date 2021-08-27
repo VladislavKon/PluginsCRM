@@ -4,7 +4,9 @@
         && primaryControl.getAttribute("new_region").getValue() != null && primaryControl.getAttribute("new_region").getValue() != undefined
         && primaryControl.getAttribute("new_email").getValue() != null && primaryControl.getAttribute("new_email").getValue() != undefined) {
        
-        primaryControl.data.save().then(toEntityView())
+        primaryControl.data.save().then(setTimeout(function () {
+            toEntityView();
+        }, 1000));
         
     } else {
         if (primaryControl.getAttribute("new_city").getValue() == null || primaryControl.getAttribute("new_city").getValue() == undefined)
