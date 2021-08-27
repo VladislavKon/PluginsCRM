@@ -18,6 +18,11 @@
           "uniquename": "myxrm_/FieldsChecker.js",
           "file": "FieldsChecker.js",
           "description": ""
+        },
+        {
+          "uniquename": "myxrm_/SaveAndClose.js",
+          "file": "SaveAndClose.js",
+          "description": ""
         }
       ]
     }
