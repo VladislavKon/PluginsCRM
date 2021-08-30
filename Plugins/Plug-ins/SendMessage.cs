@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Plugins
 {
-    class SendMessage : IPlugin
+    public class SendMessage : IPlugin
     {
         public void Execute(IServiceProvider serviceProvider)
         {
@@ -51,53 +51,34 @@ namespace Plugins
                     contactId = attribute;
             }
 
-            // We will get the contact id for Bob Smith using Retrieve
-            ConditionExpression conditionExpression = new ConditionExpression();
-            conditionExpression.AttributeName = "myxrm_contactname";
-            conditionExpression.Operator = ConditionOperator.Equal;
-            conditionExpression.Values.Add(contactName.LogicalName);            
+            // We will send the email from this current user
+            Entity fromActivityParty = new Entity("activityparty");
+            Entity toActivityParty = new Entity("activityparty");
 
-            FilterExpression filterExpression = new FilterExpression();
-            filterExpression.Conditions.Add(conditionExpression);
+            Guid contId = (Guid)contactId;
 
-            QueryExpression query = new QueryExpression("myxrm_contact");
-            query.ColumnSet.AddColumns("myxrm_contactid");
-            query.Criteria.AddFilter(filterExpression);
+            fromActivityParty["partyid"] = new EntityReference("systemuser", userId);
+            toActivityParty["partyid"] = new EntityReference("myxrm_contact", contId);
 
-            EntityCollection entityCollection = service.RetrieveMultiple(query);
-            foreach (var a in entityCollection.Entities)
+            Entity email = new Entity("email");
+            email["from"] = new Entity[] { fromActivityParty };
+            email["to"] = new Entity[] { toActivityParty };
+            email["regardingobjectid"] = new EntityReference("contact", contId);
+            email["subject"] = "This is the subject";
+            email["description"] = "This is the description.";
+            email["directioncode"] = true;
+            Guid emailId = service.Create(email);
+
+            // Use the SendEmail message to send an e-mail message.
+            SendEmailRequest sendEmailRequest = new SendEmailRequest
             {
-                // We will send the email from this current user
-                Entity fromActivityParty = new Entity("activityparty");
-                Entity toActivityParty = new Entity("activityparty");
+                EmailId = emailId,
+                TrackingToken = "",
+                IssueSend = true
+            };
 
-                Guid contId = (Guid)a.Attributes["myxrm_contactid"];
-
-                fromActivityParty["partyid"] = new EntityReference("systemuser", userId);
-                toActivityParty["partyid"] = new EntityReference("myxrm_contact", contId);
-
-                Entity email = new Entity("email");
-                email["from"] = new Entity[] { fromActivityParty };
-                email["to"] = new Entity[] { toActivityParty };
-                email["regardingobjectid"] = new EntityReference("contact", contId);
-                email["subject"] = "This is the subject";
-                email["description"] = "This is the description.";
-                email["directioncode"] = true;
-                Guid emailId = service.Create(email);
-
-                // Use the SendEmail message to send an e-mail message.
-                SendEmailRequest sendEmailRequest = new SendEmailRequest
-                {
-                    EmailId = emailId,
-                    TrackingToken = "",
-                    IssueSend = true
-                };
-
-                SendEmailResponse sendEmailresp = (SendEmailResponse)service.Execute(sendEmailRequest);
-                Console.WriteLine("Email sent");
-                Console.ReadLine();
-            }
-
+            SendEmailResponse sendEmailresp = (SendEmailResponse)service.Execute(sendEmailRequest);
+            
         }
 
     }
