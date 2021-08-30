@@ -1,0 +1,19 @@
+14:47:19	Deploying Plugins
+14:47:19	Searching for plugin config in 'C:\Users\Trainee_2\source\repos\Plugins\Plugins\spkl\..'
+14:47:19	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Plugins'
+14:47:19	Checking assembly 'Plugins.dll' for plugins
+14:47:19	Processed 1 config(s)
+14:54:30	Deploying Plugins
+14:54:30	Searching for plugin config in 'C:\Users\Trainee_2\source\repos\Plugins\Plugins\spkl\..'
+14:54:30	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Plugins'
+14:54:30	Checking assembly 'Microsoft.Bcl.AsyncInterfaces.dll' for plugins
+14:54:30	Checking assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll' for plugins
+14:54:30	Checking assembly 'Plugins.dll' for plugins
+14:54:30	Processed 1 config(s)
+15:01:03	Deploying Plugins
+15:01:03	Searching for plugin config in 'C:\Users\Trainee_2\source\repos\Plugins\Plugins\spkl\..'
+15:01:03	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Plugins'
+15:01:04	Checking assembly 'Microsoft.Bcl.AsyncInterfaces.dll' for plugins
+15:01:04	Checking assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll' for plugins
+15:01:04	Checking assembly 'Plugins.dll' for plugins
+15:01:04	Processed 1 config(s)
