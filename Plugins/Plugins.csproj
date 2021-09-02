@@ -128,6 +128,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CrmPluginRegistrationAttribute.cs" />
+    <Compile Include="CustomWorkflow\CustomMail.cs" />
+    <Compile Include="Plug-ins\SendEmail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Plug-ins\SendMessage.cs" />
   </ItemGroup>

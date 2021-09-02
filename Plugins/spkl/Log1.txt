@@ -17,3 +17,23 @@
 15:01:04	Checking assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll' for plugins
 15:01:04	Checking assembly 'Plugins.dll' for plugins
 15:01:04	Processed 1 config(s)
+12:35:49	Deploying Plugins
+12:35:49	Searching for plugin config in 'C:\Users\Trainee_2\source\repos\Plugins\Plugins\spkl\..'
+12:35:49	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Plugins'
+12:35:49	Checking assembly 'Microsoft.Bcl.AsyncInterfaces.dll' for plugins
+12:35:49	Checking assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll' for plugins
+12:35:49	Checking assembly 'Plugins.dll' for plugins
+12:35:49	1 plugin(s) found!
+12:35:49	Processed 1 config(s)
+17:22:08	Deploying Plugins
+17:22:08	Searching for plugin config in 'C:\Users\Trainee_2\source\repos\Plugins\Plugins\spkl\..'
+17:22:08	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Plugins'
+17:22:08	Checking assembly 'Microsoft.Bcl.AsyncInterfaces.dll' for plugins
+17:22:08	Checking assembly 'Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll' for plugins
+17:22:08	Checking assembly 'Plugins.dll' for plugins
+17:22:09	2 plugin(s) found!
+17:22:09	Processed 1 config(s)
+17:23:00	Deploying Custom Workflow Activities
+17:23:00	Searching for workflow config in 'C:\Users\Trainee_2\source\repos\Plugins\Plugins\spkl\..'
+17:23:00	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Plugins'
+17:23:00	Processed 1 config(s)

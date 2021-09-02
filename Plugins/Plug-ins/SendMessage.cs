@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Plugins
+namespace Plugins.Plug_ins
 {
     public class SendMessage : IPlugin
     {
@@ -20,7 +20,7 @@ namespace Plugins
         }
         public void SendMail()
         {
-            var connectionString = @"AuthType = Office365; Url = https://mycrm20.crm11.dynamics.com/;Username=vkonshin@myTrialCRMorg.onmicrosoft.com;Password=fy8C1&@A";
+            string connectionString = @"AuthType = Office365; Url = https://myCRM.crm.dynamics.com/; Username = vkonshin@myTrialCRMorg.onmicrosoft.com; Password = fy8C1&@A";
             CrmServiceClient conn = new CrmServiceClient(connectionString);
 
             IOrganizationService service;
