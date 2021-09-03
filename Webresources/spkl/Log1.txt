@@ -1148,3 +1148,15 @@
 17:57:34	Publish complete.
 17:57:34	Processed 1 section(s)
 17:57:34	Processed 1 config(s)
+14:59:32	Deploying WebResources
+14:59:32	Using Config 'C:\Users\dartm\source\rep2\PluginsCRM\Webresources'
+15:00:35	Deploying WebResources
+15:00:35	Using Config 'C:\Users\dartm\source\rep2\PluginsCRM\Webresources'
+15:02:52	Deploying WebResources
+15:02:52	Using Config 'C:\Users\dartm\source\rep2\PluginsCRM\Webresources'
+15:02:52	Creating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+15:02:56	Deployed 1 webresource(s)
+15:02:56	Publishing 1 webresources...
+15:03:22	Publish complete.
+15:03:22	Processed 1 section(s)
+15:03:22	Processed 1 config(s)

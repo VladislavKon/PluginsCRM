@@ -1,5 +1,5 @@
 ﻿function SaveAndClose(primaryControl) {
-    var message = "Введите данные в поля: "
+    var message = "Заполните следующие поля: "
     if (primaryControl.getAttribute("new_city").getValue() != null && primaryControl.getAttribute("new_city").getValue() != undefined
         && primaryControl.getAttribute("new_region").getValue() != null && primaryControl.getAttribute("new_region").getValue() != undefined
         && primaryControl.getAttribute("new_email").getValue() != null && primaryControl.getAttribute("new_email").getValue() != undefined) {

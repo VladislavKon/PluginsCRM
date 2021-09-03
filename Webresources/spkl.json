@@ -1,27 +1,40 @@
 {
+  //"webresources": [
+  //  {
+  //    "profile": "default,debug",
+  //    "root": "Webresources/",
+  //    "files": [
+  //      {
+  //        "uniquename": "myxrm_/FilterLookup.js",
+  //        "file": "FilterLookup.js",
+  //        "description": ""
+  //      },
+  //      {
+  //        "uniquename": "myxrm_/RegionAuto.js",
+  //        "file": "regionAuto.js",
+  //        "description": ""
+  //      },
+  //      {
+  //        "uniquename": "myxrm_/FieldsChecker.js",
+  //        "file": "FieldsChecker.js",
+  //        "description": ""
+  //      },
+  //      {
+  //        "uniquename": "myxrm_/SaveAndClose.js",
+  //        "file": "SaveAndClose.js",
+  //        "description": ""
+  //      }
+  //    ]
+  //  }
+  //],
   "webresources": [
     {
       "profile": "default,debug",
       "root": "Webresources/",
       "files": [
         {
-          "uniquename": "myxrm_/FilterLookup.js",
-          "file": "FilterLookup.js",
-          "description": ""
-        },
-        {
-          "uniquename": "myxrm_/RegionAuto.js",
-          "file": "regionAuto.js",
-          "description": ""
-        },
-        {
-          "uniquename": "myxrm_/FieldsChecker.js",
-          "file": "FieldsChecker.js",
-          "description": ""
-        },
-        {
-          "uniquename": "myxrm_/SaveAndClose.js",
-          "file": "SaveAndClose.js",
+          "uniquename": "myxrm_/mainwebresources.js",
+          "file": "MainWebresources.js",
           "description": ""
         }
       ]
