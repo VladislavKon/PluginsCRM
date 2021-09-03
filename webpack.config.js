@@ -13,6 +13,7 @@ module.exports = {
   watch: true,
   watchOptions: {
       aggregateTimeout: 500,
-      poll: 3000 
+      poll: 3000,
+      ignored: /node_modules/
   }
 };
