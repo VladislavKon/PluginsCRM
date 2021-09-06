@@ -2,7 +2,7 @@
   "webresources": [
     {
       "profile": "default,debug",
-      "root": "Webresources/",
+      "root": "dist/",
       "files": [
         {
           "uniquename": "myxrm_/mainwebresources.js",

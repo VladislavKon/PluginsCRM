@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Plugins.Plug_ins
 {
-    public class SendMessage : IPlugin
+    class SendMessage : IPlugin
     {
         public void Execute(IServiceProvider serviceProvider)
         {

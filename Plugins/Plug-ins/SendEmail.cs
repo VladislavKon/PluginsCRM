@@ -34,11 +34,8 @@ namespace Plugins.Plug_ins
 
             var guid = entity.Id;
             Entity contactEntity = service.Retrieve("myxrm_contact", guid, new ColumnSet(true));
-                        
-            var contactId = contactEntity.Attributes["myxrm_contactid"];
             
-            Guid contId = (Guid)contactId;
-
+            Guid contId = (Guid)contactEntity.Attributes["myxrm_contactid"];
             
             Entity fromParty = new Entity("activityparty");
             Entity toParty = new Entity("activityparty");
@@ -52,7 +49,10 @@ namespace Plugins.Plug_ins
             email["to"] = new Entity[] { toParty };
             email["regardingobjectid"] = new EntityReference("myxrm_contact", contId);
             email["subject"] = "This is the subject";
-            email["description"] = "This is the description.";
+            email["description"] = $"Имя контакта: {contactEntity.Attributes["myxrm_contactname"]}, " +
+                $"Эектронная почта: {contactEntity.Attributes["new_email"]}, " +
+                $"Регион: {contactEntity.Attributes["new_region"]}, " +
+                $"Город: {contactEntity.Attributes["new_city"]}";
             email["directioncode"] = true;
             Guid emailId = service.Create(email);
 
