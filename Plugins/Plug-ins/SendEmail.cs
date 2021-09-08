@@ -21,15 +21,6 @@ namespace Plugins.Plug_ins
             IOrganizationServiceFactory serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
             IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
             
-
-            RetrieveEntityRequest retrieveEntityRequest = new RetrieveEntityRequest
-            {
-                EntityFilters = EntityFilters.All,
-                LogicalName = "myxrm_contact"
-            };
-
-            RetrieveEntityResponse retrieveAccountEntityResponse = (RetrieveEntityResponse)service.Execute(retrieveEntityRequest);
-            EntityMetadata AccountEntity = retrieveAccountEntityResponse.EntityMetadata;
             Entity entity = (Entity)context.InputParameters["Target"];
 
             var guid = entity.Id;
@@ -48,11 +39,11 @@ namespace Plugins.Plug_ins
             email["from"] = new Entity[] { fromParty };
             email["to"] = new Entity[] { toParty };
             email["regardingobjectid"] = new EntityReference("myxrm_contact", contId);
-            email["subject"] = "This is the subject";
+            email["subject"] = "Информация";
             email["description"] = $"Имя контакта: {contactEntity.Attributes["myxrm_contactname"]}, " +
                 $"Эектронная почта: {contactEntity.Attributes["new_email"]}, " +
-                $"Регион: {contactEntity.Attributes["new_region"]}, " +
-                $"Город: {contactEntity.Attributes["new_city"]}";
+                $"Регион: {((EntityReference)(contactEntity.Attributes["new_region"])).Name}, " +
+                $"Город: {((EntityReference)(contactEntity.Attributes["new_city"])).Name}";
             email["directioncode"] = true;
             Guid emailId = service.Create(email);
 

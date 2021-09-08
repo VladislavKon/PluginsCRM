@@ -23,6 +23,9 @@ namespace Plugins.CustomWorkflow
                 this.InputText.Get<string>(context).Split(
                     new char[] { ' ', '\r', '\n' },
                     StringSplitOptions.RemoveEmptyEntries).Length);
+            string[] description = this.InputText.Get<string>(context).Split(
+                    new char[] { ' ', '\r', '\n' },
+                    StringSplitOptions.RemoveEmptyEntries);
         }
     }
 }

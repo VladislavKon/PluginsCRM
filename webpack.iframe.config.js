@@ -1,17 +1,15 @@
 const path = require('path');
 
 module.exports = {
-  entry: ['./Webresources/src/FieldsChecker.js',  
-        './Webresources/src/regionAuto.js',
-        './Webresources/src/SaveAndClose.js',
-        './Webresources/src/FilterLookup.js',
+  entry: [
         './Webresources/src/iframeAnnotation.js',
+        './Webresources/src/Index.html'
     ],
   output: {
-    filename: 'MainWebresources.js',
+    filename: 'iframeAnnotation.js',
       path: path.resolve(__dirname, 'Webresources/dist'),
       libraryTarget: 'var',
-      library: 'WebResources',
+      library: 'IframeAnnotation',
   },
   mode: 'development',
   watch: true,

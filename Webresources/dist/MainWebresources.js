@@ -40,6 +40,16 @@ eval("﻿function SaveAndClose(primaryControl) {\r\n    var message = \"Запо
 
 /***/ }),
 
+/***/ "./Webresources/src/iframeAnnotation.js":
+/*!**********************************************!*\
+  !*** ./Webresources/src/iframeAnnotation.js ***!
+  \**********************************************/
+/***/ ((module) => {
+
+eval("﻿function GetAnnotations(executeContext) {\r\n    try {\r\n        var contId = executeContext.data.entity.getId()\r\n        var Entity = \"annotation\";\r\n        var Select = \"?$select=objectid, notetext\";\r\n        var Filter = \"&$filter=objectid eq '\" + contId + \"'\";\r\n        Xrm.WebApi.retrieveMultipleRecords(Entity, Select + Filter).then(\r\n            function success(result) {\r\n                if (result != null) {\r\n                    var res = result;\r\n                }\r\n            }\r\n        );\r\n    } catch (e) {\r\n        throw new Error(e.Message);\r\n    }\r\n}\r\nmodule.exports = {\r\n    Anno: function () {\r\n        GetAnnotations();\r\n    }\r\n};\r\n\r\n\n\n//# sourceURL=webpack://WebResources/./Webresources/src/iframeAnnotation.js?");
+
+/***/ }),
+
 /***/ "./Webresources/src/regionAuto.js":
 /*!****************************************!*\
   !*** ./Webresources/src/regionAuto.js ***!
@@ -84,7 +94,8 @@ eval("﻿function regionAuto() {\r\n    try {        \r\n        if (Xrm.Page.ge
 /******/ 	__webpack_require__("./Webresources/src/FieldsChecker.js");
 /******/ 	__webpack_require__("./Webresources/src/regionAuto.js");
 /******/ 	__webpack_require__("./Webresources/src/SaveAndClose.js");
-/******/ 	var __webpack_exports__ = __webpack_require__("./Webresources/src/FilterLookup.js");
+/******/ 	__webpack_require__("./Webresources/src/FilterLookup.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./Webresources/src/iframeAnnotation.js");
 /******/ 	WebResources = __webpack_exports__;
 /******/ 	
 /******/ })()

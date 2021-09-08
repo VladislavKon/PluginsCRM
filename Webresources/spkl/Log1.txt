@@ -1314,3 +1314,11 @@
 18:05:11	Publish complete.
 18:05:11	Processed 1 section(s)
 18:05:11	Processed 1 config(s)
+17:50:00	Deploying WebResources
+17:50:01	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:50:01	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+17:50:03	Deployed 1 webresource(s)
+17:50:03	Publishing 1 webresources...
+17:50:16	Publish complete.
+17:50:16	Processed 1 section(s)
+17:50:16	Processed 1 config(s)
