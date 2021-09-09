@@ -8,6 +8,11 @@
           "uniquename": "myxrm_/mainwebresources.js",
           "file": "MainWebresources.js",
           "description": ""
+        },
+        {
+          "uniquename": "myxrm_/iframe.html",
+          "file": "iframe.html",
+          "description": ""
         }
       ]
     }

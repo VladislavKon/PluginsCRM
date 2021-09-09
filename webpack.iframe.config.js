@@ -2,8 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: [
-        './Webresources/src/iframeAnnotation.js',
-        './Webresources/src/Index.html'
+        './Webresources/src/iframeAnnotation.js',        
     ],
   output: {
     filename: 'iframeAnnotation.js',

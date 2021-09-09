@@ -5,7 +5,7 @@ module.exports = {
         './Webresources/src/regionAuto.js',
         './Webresources/src/SaveAndClose.js',
         './Webresources/src/FilterLookup.js',
-        './Webresources/src/iframeAnnotation.js',
+        './Webresources/src/iframeAnnotation.js',        
     ],
   output: {
     filename: 'MainWebresources.js',
