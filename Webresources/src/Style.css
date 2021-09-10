@@ -1,0 +1,30 @@
+﻿html {
+    background: linear-gradient(to bottom right, #FFA49D, #C6FFFC);
+    background-size: cover;
+    font-family: cursive;
+    font-style: initial;
+}
+.table {
+    border-style: inset;
+    padding: 4px;
+    border-radius: 10px;
+    width: 100%;
+}
+.cell {
+    border-style: inset;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+    width: 25%;
+}
+.cell2 {
+    border-style: inset;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+    width: 50%;
+}
+
+    

@@ -12,12 +12,20 @@ module.exports = {
       path: path.resolve(__dirname, 'Webresources/dist'),
       libraryTarget: 'var',
       library: 'WebResources',
-  },
+    },
+    module: {
+        rules: [
+            {
+                test: /\.css/,
+                use: ["style-loader", "css-loader"],                
+            }
+        ]
+    },
   mode: 'development',
   watch: true,
   watchOptions: {
       aggregateTimeout: 500,
       poll: 3000,
       ignored: /node_modules/
-  }
+    },  
 };
