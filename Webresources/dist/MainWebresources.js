@@ -10,53 +10,33 @@ var WebResources;
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./Webresources/src/FieldsChecker.js":
-/*!*******************************************!*\
-  !*** ./Webresources/src/FieldsChecker.js ***!
-  \*******************************************/
-/***/ (() => {
-
-eval("﻿function FieldsChecker(primaryControl) {\r\n    var message = \"Введите данные в поля: \"\r\n    if (primaryControl.getAttribute(\"new_city\").getValue() != null && primaryControl.getAttribute(\"new_city\").getValue() != undefined\r\n        && primaryControl.getAttribute(\"new_region\").getValue() != null && primaryControl.getAttribute(\"new_region\").getValue() != undefined\r\n        && primaryControl.getAttribute(\"new_email\").getValue() != null && primaryControl.getAttribute(\"new_email\").getValue() != undefined) {\r\n        primaryControl.data.save()\r\n    } else {\r\n        if (primaryControl.getAttribute(\"new_city\").getValue() == null || primaryControl.getAttribute(\"new_city\").getValue() == undefined)\r\n            message += \"\\n Город\";\r\n        if (primaryControl.getAttribute(\"new_region\").getValue() == null || primaryControl.getAttribute(\"new_region\").getValue() == undefined)\r\n            message += \"\\n Регион\";\r\n        if (primaryControl.getAttribute(\"new_email\").getValue() == null || primaryControl.getAttribute(\"new_email\").getValue() == undefined)\r\n            message += \"\\n Основной email\";\r\n        Xrm.Navigation.openAlertDialog(message);        \r\n    }\r\n}\n\n//# sourceURL=webpack://WebResources/./Webresources/src/FieldsChecker.js?");
-
-/***/ }),
-
 /***/ "./Webresources/src/FilterLookup.js":
 /*!******************************************!*\
   !*** ./Webresources/src/FilterLookup.js ***!
   \******************************************/
 /***/ ((module) => {
 
-eval("﻿function filterLookup() {\r\n    try {\r\n        if (Xrm.Page.getControl(\"new_region\") != null && Xrm.Page.getControl(\"new_region\") != undefined) {\r\n            Xrm.Page.getControl(\"new_city\").addPreSearch(function () {\r\n                addCustomeLookupFilter();\r\n            });\r\n        }\r\n    } catch (e) {\r\n        throw new Error(e.Message);\r\n    }\r\n}\r\nfunction addCustomeLookupFilter() {\r\n    try {\r\n        var Region = Xrm.Page.getAttribute(\"new_region\").getValue();\r\n        if (Region != null && Region != undefined) {\r\n            fetchXml = \"<filter type='and'><condition attribute='new_regionlookup' operator='eq' value='\" + Region[0].id + \"' /></filter>\";\r\n            Xrm.Page.getControl(\"new_city\").addCustomFilter(fetchXml);\r\n        }\r\n    } catch (e) {\r\n        throw new Error(e.Message);\r\n    }\r\n}\r\n\r\nmodule.exports = {\r\n    filter: function () {\r\n        filterLookup();\r\n    }\r\n};\r\n\r\n    \r\n\n\n//# sourceURL=webpack://WebResources/./Webresources/src/FilterLookup.js?");
+eval("﻿function filterLookup() {\r\n    try {\r\n        if (Xrm.Page.getControl(\"new_region\") != null && Xrm.Page.getControl(\"new_region\") != undefined) {\r\n            Xrm.Page.getControl(\"new_city\").addPreSearch(function () {\r\n                addCustomeLookupFilter();\r\n            });\r\n        }\r\n    } catch (e) {\r\n        throw new Error(e.Message);\r\n    }\r\n}\r\nfunction addCustomeLookupFilter() {\r\n    try {\r\n        var Region = Xrm.Page.getAttribute(\"new_region\").getValue();\r\n        if (Region != null && Region != undefined) {\r\n            fetchXml = \"<filter type='and'><condition attribute='new_regionlookup' operator='eq' value='\" + Region[0].id + \"' /></filter>\";\r\n            Xrm.Page.getControl(\"new_city\").addCustomFilter(fetchXml);\r\n        }\r\n    } catch (e) {\r\n        throw new Error(e.Message);\r\n    }\r\n}\r\n\r\nmodule.exports = {\r\n    filter: function () {\r\n        filterLookup();\r\n    }\r\n};\r\n\r\n\r\n    \r\n\n\n//# sourceURL=webpack://WebResources/./Webresources/src/FilterLookup.js?");
 
 /***/ }),
 
-/***/ "./Webresources/src/SaveAndClose.js":
-/*!******************************************!*\
-  !*** ./Webresources/src/SaveAndClose.js ***!
-  \******************************************/
-/***/ (() => {
-
-eval("﻿function SaveAndClose(primaryControl) {\r\n    var message = \"Заполните следующие поля: \"\r\n    if (primaryControl.getAttribute(\"new_city\").getValue() != null && primaryControl.getAttribute(\"new_city\").getValue() != undefined\r\n        && primaryControl.getAttribute(\"new_region\").getValue() != null && primaryControl.getAttribute(\"new_region\").getValue() != undefined\r\n        && primaryControl.getAttribute(\"new_email\").getValue() != null && primaryControl.getAttribute(\"new_email\").getValue() != undefined) {\r\n       \r\n        primaryControl.data.save().then(setTimeout(function () {\r\n            toEntityView();\r\n        }, 1000));\r\n        \r\n    } else {\r\n        if (primaryControl.getAttribute(\"new_city\").getValue() == null || primaryControl.getAttribute(\"new_city\").getValue() == undefined)\r\n            message += \"\\n Город\";\r\n        if (primaryControl.getAttribute(\"new_region\").getValue() == null || primaryControl.getAttribute(\"new_region\").getValue() == undefined)\r\n            message += \"\\n Регион\";\r\n        if (primaryControl.getAttribute(\"new_email\").getValue() == null || primaryControl.getAttribute(\"new_email\").getValue() == undefined)\r\n            message += \"\\n Основной email\";       \r\n        Xrm.Navigation.openAlertDialog(message);\r\n    }\r\n}\r\nfunction toEntityView() {\r\n    var pageInput = {\r\n        pageType: \"entitylist\",\r\n        entityName: \"myxrm_contact\"\r\n    };\r\n    Xrm.Navigation.navigateTo(pageInput)\r\n}\r\n\n\n//# sourceURL=webpack://WebResources/./Webresources/src/SaveAndClose.js?");
-
-/***/ }),
-
-/***/ "./Webresources/src/iframeAnnotation.js":
+/***/ "./Webresources/src/IframeAnnotation.js":
 /*!**********************************************!*\
-  !*** ./Webresources/src/iframeAnnotation.js ***!
+  !*** ./Webresources/src/IframeAnnotation.js ***!
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("﻿\r\n__webpack_require__(/*! ./Style.css */ \"./Webresources/src/Style.css\")\r\nfunction GetAnnotations() {\r\n    try {\r\n        var parent = window.parent;\r\n        var contId = parent.Xrm.Page.data.entity.getId()\r\n        var Entity = \"annotation\";\r\n        var Select = \"?$select=_objectid_value, notetext, subject, annotationid\";\r\n        var Filter = \"&$filter=_objectid_value eq '\" + contId + \"'\";\r\n        parent.Xrm.WebApi.retrieveMultipleRecords(Entity, Select + Filter).then(\r\n            function success(result) {\r\n                if (result != null) {\r\n                    WriteAnnotation(result.entities);\r\n                }\r\n            }\r\n        );\r\n    } catch (e) {\r\n        throw new Error(e.Message);\r\n    }\r\n}\r\nfunction WriteAnnotation(result) {\r\n    let list = document.getElementById(\"myList\");\r\n\r\n    result.forEach((item) => {\r\n        let tr = document.createElement(\"tr\");\r\n        let td = document.createElement(\"td\");\r\n        let td2 = document.createElement(\"td\");\r\n        let td3 = document.createElement(\"td\");\r\n        let button = document.createElement(\"button\");\r\n\r\n        td.innerText = item.subject;        \r\n        td2.innerHTML = item.notetext;\r\n        button.innerText = \"Удалить\";\r\n\r\n        tr.setAttribute(\"class\", \"cell\");\r\n        td.setAttribute(\"class\", \"cell\");\r\n        td2.setAttribute(\"class\", \"cell2\");\r\n        td3.setAttribute(\"class\", \"cell\");\r\n        td3.setAttribute(\"align\", \"center\");\r\n        button.setAttribute(\"value\", item.annotationid);\r\n        button.setAttribute(\"onclick\", \"WebResources.Delete(this.value)\");\r\n\r\n        td3.appendChild(button);\r\n        list.appendChild(tr);\r\n        list.appendChild(td);\r\n        list.appendChild(td2);\r\n        list.appendChild(td3);\r\n    });\r\n}\r\nfunction DeleteAnno(recordId) {\r\n    var parent = window.parent;\r\n    parent.Xrm.WebApi.deleteRecord(\"annotation\", recordId).then(function successCallback() { location.reload(true) });\r\n}\r\n\r\nfunction IframeRefresh() {\r\n    Xrm.Page.getControl(\"IFRAME_annotation\").getObject().contentWindow.location.reload()\r\n}\r\n\r\nmodule.exports = {\r\n    Anno: function () {\r\n        GetAnnotations();\r\n    },\r\n    Delete: function (recordId) {\r\n        DeleteAnno(recordId);\r\n    },\r\n    Refresh: function () {\r\n        IframeRefresh();\r\n    },\r\n};\r\n\r\n\n\n//# sourceURL=webpack://WebResources/./Webresources/src/iframeAnnotation.js?");
+eval("﻿__webpack_require__(/*! ./Style.css */ \"./Webresources/src/Style.css\")\r\nfunction GetAnnotations() {\r\n    try {\r\n        var parent = window.parent;\r\n        var table = document.getElementById(\"myTable\")\r\n        var rowCount = table.rows.length;\r\n        var contId = parent.Xrm.Page.data.entity.getId()\r\n        var Entity = \"annotation\";\r\n        var Select = \"?$select=_objectid_value, notetext, subject, annotationid\";\r\n        var Filter = \"&$filter=_objectid_value eq '\" + contId + \"'\";\r\n        parent.Xrm.WebApi.retrieveMultipleRecords(Entity, Select + Filter).then(\r\n            function success(result) {\r\n                if (result != null && table.rows.length != result.entities.length) {\r\n                    for (var i = 0; i < rowCount; i++) {\r\n                        table.deleteRow(i)\r\n                    }\r\n                    var promise = new Promise(function (resolve) {\r\n                        WriteAnnotation(result.entities);\r\n                        resolve();\r\n                    });\r\n                    promise.then(() => {setTimeout(GetAnnotations(), 2000) });\r\n                }\r\n                else setTimeout(GetAnnotations(), 2000);\r\n                \r\n            }\r\n        );        \r\n    } catch (e) {\r\n        throw new Error(e.Message);\r\n    }\r\n}\r\nfunction WriteAnnotation(result) {\r\n    let table = document.getElementById(\"myTable\");\r\n\r\n    result.forEach((item) => {\r\n        let tr = document.createElement(\"tr\");\r\n        let td = document.createElement(\"td\");\r\n        let td2 = document.createElement(\"td\");\r\n        let td3 = document.createElement(\"td\");\r\n        let button = document.createElement(\"button\");\r\n\r\n        td.innerText = item.subject;        \r\n        td2.innerHTML = item.notetext;\r\n        button.innerText = \"Удалить\";\r\n\r\n        tr.setAttribute(\"class\", \"cell\");\r\n        td.setAttribute(\"class\", \"cell\");\r\n        td2.setAttribute(\"class\", \"cell2\");\r\n        td3.setAttribute(\"class\", \"cell\");\r\n        td3.setAttribute(\"align\", \"center\");\r\n        button.setAttribute(\"value\", item.annotationid);\r\n        button.setAttribute(\"onclick\", \"WebResources.iframe.Delete(this.value)\");\r\n\r\n        td3.appendChild(button);\r\n        table.appendChild(tr);\r\n        table.appendChild(td);\r\n        table.appendChild(td2);\r\n        table.appendChild(td3);\r\n    });\r\n}\r\nfunction DeleteAnno(recordId) {\r\n    var parent = window.parent;\r\n    parent.Xrm.WebApi.deleteRecord(\"annotation\", recordId).then(function successCallback() { location.reload(true) });\r\n}\r\n\r\nmodule.exports = {\r\n    Anno: function () {\r\n        GetAnnotations();        \r\n    },\r\n    Delete: function (recordId) {\r\n        DeleteAnno(recordId);\r\n    },   \r\n};\r\n\r\n\n\n//# sourceURL=webpack://WebResources/./Webresources/src/IframeAnnotation.js?");
 
 /***/ }),
 
-/***/ "./Webresources/src/regionAuto.js":
-/*!****************************************!*\
-  !*** ./Webresources/src/regionAuto.js ***!
-  \****************************************/
-/***/ (() => {
+/***/ "./Webresources/src/Main.js":
+/*!**********************************!*\
+  !*** ./Webresources/src/Main.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("﻿function regionAuto() {\r\n    try {        \r\n        if (Xrm.Page.getAttribute(\"new_city\").getValue() != null && Xrm.Page.getAttribute(\"new_city\").getValue() != undefined) {\r\n            var City = Xrm.Page.getAttribute(\"new_city\").getValue();\r\n            var EntityCity = \"new_mycity\";\r\n            var SelectCity = \"?$select=new_cityname,_new_regionlookup_value\";\r\n            var FilterCity = \"&$filter=new_cityname eq '\" + City[0].name + \"'\";\r\n            Xrm.WebApi.retrieveMultipleRecords(EntityCity, SelectCity + FilterCity).then(\r\n                function success(result) {\r\n                    if (result != null) {\r\n                        GetRegion(result.entities[0])\r\n                    }\r\n                }                \r\n            );            \r\n        }\r\n        else {\r\n            return;\r\n        }\r\n    } catch (e) {\r\n        throw new Error(e.Message);\r\n    }\r\n}\r\nfunction GetRegion(CityResult) {\r\n    try {\r\n        var regionLookup = [];\r\n        regionLookup[0] = new Object();\r\n        regionLookup[0].id = CityResult[\"_new_regionlookup_value\"];\r\n        regionLookup[0].name = CityResult[\"_new_regionlookup_value@OData.Community.Display.V1.FormattedValue\"];\r\n        regionLookup[0].entityType = \"new_region\";\r\n        Xrm.Page.getAttribute(\"new_region\").setValue(regionLookup);\r\n    } catch (e) {\r\n        throw new Error(e.Message);\r\n    }\r\n}\n\n//# sourceURL=webpack://WebResources/./Webresources/src/regionAuto.js?");
+eval("﻿var filter = __webpack_require__(/*! ./FilterLookup.js */ \"./Webresources/src/FilterLookup.js\");\r\nvar iframe = __webpack_require__(/*! ./IframeAnnotation.js */ \"./Webresources/src/IframeAnnotation.js\");\r\n\r\nexports.filter = filter;\r\nexports.iframe = iframe;\r\n\n\n//# sourceURL=webpack://WebResources/./Webresources/src/Main.js?");
 
 /***/ }),
 
@@ -231,11 +211,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, style) {\
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	__webpack_require__("./Webresources/src/FieldsChecker.js");
-/******/ 	__webpack_require__("./Webresources/src/regionAuto.js");
-/******/ 	__webpack_require__("./Webresources/src/SaveAndClose.js");
-/******/ 	__webpack_require__("./Webresources/src/FilterLookup.js");
-/******/ 	var __webpack_exports__ = __webpack_require__("./Webresources/src/iframeAnnotation.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./Webresources/src/Main.js");
 /******/ 	WebResources = __webpack_exports__;
 /******/ 	
 /******/ })()

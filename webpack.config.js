@@ -1,17 +1,18 @@
 const path = require('path');
 
 module.exports = {
-  entry: ['./Webresources/src/FieldsChecker.js',  
-        './Webresources/src/regionAuto.js',
-        './Webresources/src/SaveAndClose.js',
-        './Webresources/src/FilterLookup.js',
-        './Webresources/src/iframeAnnotation.js',        
-    ],
-  output: {
-    filename: 'MainWebresources.js',
-      path: path.resolve(__dirname, 'Webresources/dist'),
-      libraryTarget: 'var',
-      library: 'WebResources',
+  //entry: ['./Webresources/src/FieldsChecker.js',  
+  //      './Webresources/src/regionAuto.js',
+  //      './Webresources/src/SaveAndClose.js',
+  //      './Webresources/src/FilterLookup.js',
+  //      './Webresources/src/iframeAnnotation.js',        
+   // ],
+    entry: './Webresources/src/Main.js',
+    output: {
+        filename: 'MainWebresources.js',
+        path: path.resolve(__dirname, 'Webresources/dist'),
+        libraryTarget: 'var',
+        library: 'WebResources',
     },
     module: {
         rules: [

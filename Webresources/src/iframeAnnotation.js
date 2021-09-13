@@ -1,25 +1,35 @@
-﻿
-require('./Style.css')
+﻿require('./Style.css')
 function GetAnnotations() {
     try {
         var parent = window.parent;
+        var table = document.getElementById("myTable")
+        var rowCount = table.rows.length;
         var contId = parent.Xrm.Page.data.entity.getId()
         var Entity = "annotation";
         var Select = "?$select=_objectid_value, notetext, subject, annotationid";
         var Filter = "&$filter=_objectid_value eq '" + contId + "'";
         parent.Xrm.WebApi.retrieveMultipleRecords(Entity, Select + Filter).then(
             function success(result) {
-                if (result != null) {
-                    WriteAnnotation(result.entities);
+                if (result != null && table.rows.length != result.entities.length) {
+                    for (var i = 0; i < rowCount; i++) {
+                        table.deleteRow(i)
+                    }
+                    var promise = new Promise(function (resolve) {
+                        WriteAnnotation(result.entities);
+                        resolve();
+                    });
+                    promise.then(() => {setTimeout(GetAnnotations(), 2000) });
                 }
+                else setTimeout(GetAnnotations(), 2000);
+                
             }
-        );
+        );        
     } catch (e) {
         throw new Error(e.Message);
     }
 }
 function WriteAnnotation(result) {
-    let list = document.getElementById("myList");
+    let table = document.getElementById("myTable");
 
     result.forEach((item) => {
         let tr = document.createElement("tr");
@@ -38,13 +48,13 @@ function WriteAnnotation(result) {
         td3.setAttribute("class", "cell");
         td3.setAttribute("align", "center");
         button.setAttribute("value", item.annotationid);
-        button.setAttribute("onclick", "WebResources.Delete(this.value)");
+        button.setAttribute("onclick", "WebResources.iframe.Delete(this.value)");
 
         td3.appendChild(button);
-        list.appendChild(tr);
-        list.appendChild(td);
-        list.appendChild(td2);
-        list.appendChild(td3);
+        table.appendChild(tr);
+        table.appendChild(td);
+        table.appendChild(td2);
+        table.appendChild(td3);
     });
 }
 function DeleteAnno(recordId) {
@@ -52,19 +62,12 @@ function DeleteAnno(recordId) {
     parent.Xrm.WebApi.deleteRecord("annotation", recordId).then(function successCallback() { location.reload(true) });
 }
 
-function IframeRefresh() {
-    Xrm.Page.getControl("IFRAME_annotation").getObject().contentWindow.location.reload()
-}
-
 module.exports = {
     Anno: function () {
-        GetAnnotations();
+        GetAnnotations();        
     },
     Delete: function (recordId) {
         DeleteAnno(recordId);
-    },
-    Refresh: function () {
-        IframeRefresh();
-    },
+    },   
 };
 

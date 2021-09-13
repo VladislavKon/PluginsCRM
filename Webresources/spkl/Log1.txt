@@ -1996,3 +1996,351 @@
 16:26:16	Publish complete.
 16:26:16	Processed 1 section(s)
 16:26:16	Processed 1 config(s)
+11:15:10	Deploying WebResources
+11:15:10	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+11:15:10	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+11:15:19	myxrm_/iframe.html has not changed, skipping...
+11:15:19	Deployed 1 webresource(s)
+11:15:19	Publishing 1 webresources...
+11:15:40	Publish complete.
+11:15:40	Processed 1 section(s)
+11:15:40	Processed 1 config(s)
+11:32:50	Deploying WebResources
+11:32:50	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+11:32:51	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+11:32:52	myxrm_/iframe.html has not changed, skipping...
+11:32:52	Deployed 1 webresource(s)
+11:32:52	Publishing 1 webresources...
+11:33:05	Publish complete.
+11:33:05	Processed 1 section(s)
+11:33:05	Processed 1 config(s)
+11:48:53	Deploying WebResources
+11:48:53	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+11:48:53	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+11:48:58	myxrm_/iframe.html has not changed, skipping...
+11:48:58	Deployed 1 webresource(s)
+11:48:58	Publishing 1 webresources...
+11:49:02	Publish complete.
+11:49:02	Processed 1 section(s)
+11:49:02	Processed 1 config(s)
+11:54:45	Deploying WebResources
+11:54:45	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+11:54:46	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+11:54:47	myxrm_/iframe.html has not changed, skipping...
+11:54:47	Deployed 1 webresource(s)
+11:54:47	Publishing 1 webresources...
+11:54:51	Publish complete.
+11:54:51	Processed 1 section(s)
+11:54:51	Processed 1 config(s)
+11:58:37	Deploying WebResources
+11:58:37	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+11:58:38	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+11:58:39	myxrm_/iframe.html has not changed, skipping...
+11:58:39	Deployed 1 webresource(s)
+11:58:39	Publishing 1 webresources...
+11:58:43	Publish complete.
+11:58:43	Processed 1 section(s)
+11:58:43	Processed 1 config(s)
+12:00:50	Deploying WebResources
+12:00:50	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+12:00:50	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+12:00:51	myxrm_/iframe.html has not changed, skipping...
+12:00:51	Deployed 1 webresource(s)
+12:00:51	Publishing 1 webresources...
+12:00:57	Publish complete.
+12:00:57	Processed 1 section(s)
+12:00:57	Processed 1 config(s)
+12:04:34	Deploying WebResources
+12:04:34	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+12:04:34	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+12:04:35	myxrm_/iframe.html has not changed, skipping...
+12:04:35	Deployed 1 webresource(s)
+12:04:35	Publishing 1 webresources...
+12:04:41	Publish complete.
+12:04:41	Processed 1 section(s)
+12:04:41	Processed 1 config(s)
+12:37:51	Deploying WebResources
+12:37:52	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+12:37:52	myxrm_/mainwebresources.js has not changed, skipping...
+12:37:52	Updating Webresource 'iframe.html' -> 'myxrm_/iframe.html'
+12:37:53	Deployed 1 webresource(s)
+12:37:53	Publishing 1 webresources...
+12:37:58	Publish complete.
+12:37:58	Processed 1 section(s)
+12:37:58	Processed 1 config(s)
+13:07:28	Deploying WebResources
+13:07:28	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+13:07:29	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+13:07:32	myxrm_/iframe.html has not changed, skipping...
+13:07:32	Deployed 1 webresource(s)
+13:07:32	Publishing 1 webresources...
+14:09:28	Deploying WebResources
+14:09:28	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+14:09:29	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+14:09:33	myxrm_/iframe.html has not changed, skipping...
+14:09:33	Deployed 1 webresource(s)
+14:09:33	Publishing 1 webresources...
+14:09:50	Publish complete.
+14:09:50	Processed 1 section(s)
+14:09:50	Processed 1 config(s)
+14:18:12	Deploying WebResources
+14:18:13	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+14:18:13	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+14:18:15	myxrm_/iframe.html has not changed, skipping...
+14:18:15	Deployed 1 webresource(s)
+14:18:15	Publishing 1 webresources...
+14:18:21	Publish complete.
+14:18:21	Processed 1 section(s)
+14:18:21	Processed 1 config(s)
+14:44:55	Deploying WebResources
+14:44:55	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+14:44:55	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+14:44:57	myxrm_/iframe.html has not changed, skipping...
+14:44:57	Deployed 1 webresource(s)
+14:44:57	Publishing 1 webresources...
+14:45:05	Publish complete.
+14:45:05	Processed 1 section(s)
+14:45:05	Processed 1 config(s)
+14:45:26	Deploying WebResources
+14:45:27	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+14:45:27	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+14:45:29	myxrm_/iframe.html has not changed, skipping...
+14:45:29	Deployed 1 webresource(s)
+14:45:29	Publishing 1 webresources...
+14:45:36	Publish complete.
+14:45:36	Processed 1 section(s)
+14:45:36	Processed 1 config(s)
+14:47:38	Deploying WebResources
+14:47:38	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+14:47:38	myxrm_/mainwebresources.js has not changed, skipping...
+14:47:39	myxrm_/iframe.html has not changed, skipping...
+14:47:39	Deployed 0 webresource(s)
+14:47:39	Publishing 0 webresources...
+14:47:39	Publish complete.
+14:47:39	Processed 1 section(s)
+14:47:39	Processed 1 config(s)
+15:54:16	Deploying WebResources
+15:54:16	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:54:16	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+15:54:23	Updating Webresource 'iframe.html' -> 'myxrm_/iframe.html'
+15:54:23	Deployed 2 webresource(s)
+15:54:23	Publishing 2 webresources...
+15:54:45	Publish complete.
+15:54:45	Processed 1 section(s)
+15:54:45	Processed 1 config(s)
+15:54:56	Deploying WebResources
+15:54:56	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:54:56	myxrm_/mainwebresources.js has not changed, skipping...
+15:54:57	Updating Webresource 'iframe.html' -> 'myxrm_/iframe.html'
+15:54:58	Deployed 1 webresource(s)
+15:54:58	Publishing 1 webresources...
+15:55:03	Publish complete.
+15:55:03	Processed 1 section(s)
+15:55:03	Processed 1 config(s)
+15:57:35	Deploying WebResources
+15:57:35	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:57:36	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+15:57:38	Updating Webresource 'iframe.html' -> 'myxrm_/iframe.html'
+15:57:38	Deployed 2 webresource(s)
+15:57:38	Publishing 2 webresources...
+15:57:43	Publish complete.
+15:57:43	Processed 1 section(s)
+15:57:43	Processed 1 config(s)
+16:05:53	Deploying WebResources
+16:05:53	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:05:53	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+16:05:55	myxrm_/iframe.html has not changed, skipping...
+16:05:55	Deployed 1 webresource(s)
+16:05:55	Publishing 1 webresources...
+16:06:01	Publish complete.
+16:06:01	Processed 1 section(s)
+16:06:01	Processed 1 config(s)
+16:16:52	Deploying WebResources
+16:16:52	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:16:53	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+16:16:55	Updating Webresource 'iframe.html' -> 'myxrm_/iframe.html'
+16:16:55	Deployed 2 webresource(s)
+16:16:55	Publishing 2 webresources...
+16:17:01	Publish complete.
+16:17:01	Processed 1 section(s)
+16:17:01	Processed 1 config(s)
+16:24:00	Deploying WebResources
+16:24:00	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:24:00	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+16:24:02	myxrm_/iframe.html has not changed, skipping...
+16:24:02	Deployed 1 webresource(s)
+16:24:02	Publishing 1 webresources...
+16:24:07	Publish complete.
+16:24:07	Processed 1 section(s)
+16:24:07	Processed 1 config(s)
+16:35:02	Deploying WebResources
+16:35:03	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:35:03	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+16:35:05	myxrm_/iframe.html has not changed, skipping...
+16:35:05	Deployed 1 webresource(s)
+16:35:05	Publishing 1 webresources...
+16:35:10	Publish complete.
+16:35:10	Processed 1 section(s)
+16:35:10	Processed 1 config(s)
+16:41:40	Deploying WebResources
+16:41:40	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:41:41	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+16:41:43	myxrm_/iframe.html has not changed, skipping...
+16:41:43	Deployed 1 webresource(s)
+16:41:43	Publishing 1 webresources...
+16:41:48	Publish complete.
+16:41:48	Processed 1 section(s)
+16:41:48	Processed 1 config(s)
+16:59:31	Deploying WebResources
+16:59:31	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:59:32	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+16:59:33	myxrm_/iframe.html has not changed, skipping...
+16:59:34	Deployed 1 webresource(s)
+16:59:34	Publishing 1 webresources...
+16:59:47	Publish complete.
+16:59:47	Processed 1 section(s)
+16:59:47	Processed 1 config(s)
+17:07:25	Deploying WebResources
+17:07:25	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:07:25	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+17:07:27	myxrm_/iframe.html has not changed, skipping...
+17:07:27	Deployed 1 webresource(s)
+17:07:27	Publishing 1 webresources...
+17:07:33	Publish complete.
+17:07:33	Processed 1 section(s)
+17:07:33	Processed 1 config(s)
+17:29:24	Deploying WebResources
+17:29:24	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:29:24	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+17:29:26	Updating Webresource 'iframe.html' -> 'myxrm_/iframe.html'
+17:29:26	Deployed 2 webresource(s)
+17:29:26	Publishing 2 webresources...
+17:29:32	Publish complete.
+17:29:32	Processed 1 section(s)
+17:29:32	Processed 1 config(s)
+17:31:27	Deploying WebResources
+17:31:27	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:31:28	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+17:31:29	myxrm_/iframe.html has not changed, skipping...
+17:31:29	Deployed 1 webresource(s)
+17:31:29	Publishing 1 webresources...
+17:31:35	Publish complete.
+17:31:35	Processed 1 section(s)
+17:31:35	Processed 1 config(s)
+17:51:26	Deploying WebResources
+17:51:27	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:51:27	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+17:51:31	myxrm_/iframe.html has not changed, skipping...
+17:51:31	Deployed 1 webresource(s)
+17:51:31	Publishing 1 webresources...
+17:51:37	Publish complete.
+17:51:37	Processed 1 section(s)
+17:51:37	Processed 1 config(s)
+17:58:19	Deploying WebResources
+17:58:20	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:58:20	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+17:58:22	myxrm_/iframe.html has not changed, skipping...
+17:58:22	Deployed 1 webresource(s)
+17:58:22	Publishing 1 webresources...
+17:58:28	Publish complete.
+17:58:28	Processed 1 section(s)
+17:58:28	Processed 1 config(s)
+18:03:29	Deploying WebResources
+18:03:29	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:03:29	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+18:03:31	myxrm_/iframe.html has not changed, skipping...
+18:03:31	Deployed 1 webresource(s)
+18:03:31	Publishing 1 webresources...
+18:03:38	Publish complete.
+18:03:38	Processed 1 section(s)
+18:03:38	Processed 1 config(s)
+18:08:38	Deploying WebResources
+18:08:38	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:08:38	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+18:08:41	myxrm_/iframe.html has not changed, skipping...
+18:08:41	Deployed 1 webresource(s)
+18:08:41	Publishing 1 webresources...
+18:08:46	Publish complete.
+18:08:46	Processed 1 section(s)
+18:08:46	Processed 1 config(s)
+18:10:55	Deploying WebResources
+18:10:55	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:10:56	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+18:10:57	myxrm_/iframe.html has not changed, skipping...
+18:10:57	Deployed 1 webresource(s)
+18:10:57	Publishing 1 webresources...
+18:11:03	Publish complete.
+18:11:03	Processed 1 section(s)
+18:11:03	Processed 1 config(s)
+18:13:53	Deploying WebResources
+18:13:53	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:13:53	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+18:13:55	myxrm_/iframe.html has not changed, skipping...
+18:13:55	Deployed 1 webresource(s)
+18:13:55	Publishing 1 webresources...
+18:14:00	Publish complete.
+18:14:00	Processed 1 section(s)
+18:14:00	Processed 1 config(s)
+18:18:02	Deploying WebResources
+18:18:02	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:18:03	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+18:18:05	myxrm_/iframe.html has not changed, skipping...
+18:18:05	Deployed 1 webresource(s)
+18:18:05	Publishing 1 webresources...
+18:18:11	Publish complete.
+18:18:11	Processed 1 section(s)
+18:18:11	Processed 1 config(s)
+18:30:09	Deploying WebResources
+18:30:09	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:30:10	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+18:30:12	myxrm_/iframe.html has not changed, skipping...
+18:30:12	Deployed 1 webresource(s)
+18:30:12	Publishing 1 webresources...
+18:30:18	Publish complete.
+18:30:18	Processed 1 section(s)
+18:30:18	Processed 1 config(s)
+18:34:15	Deploying WebResources
+18:34:15	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:34:16	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+18:34:17	myxrm_/iframe.html has not changed, skipping...
+18:34:17	Deployed 1 webresource(s)
+18:34:17	Publishing 1 webresources...
+18:34:24	Publish complete.
+18:34:24	Processed 1 section(s)
+18:34:24	Processed 1 config(s)
+18:35:16	Deploying WebResources
+18:35:17	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:35:17	myxrm_/mainwebresources.js has not changed, skipping...
+18:35:17	myxrm_/iframe.html has not changed, skipping...
+18:35:17	Deployed 0 webresource(s)
+18:35:17	Publishing 0 webresources...
+18:35:17	Publish complete.
+18:35:17	Processed 1 section(s)
+18:35:17	Processed 1 config(s)
+18:47:25	Deploying WebResources
+18:47:25	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:47:26	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+18:47:28	myxrm_/iframe.html has not changed, skipping...
+18:47:28	Deployed 1 webresource(s)
+18:47:28	Publishing 1 webresources...
+18:47:34	Publish complete.
+18:47:34	Processed 1 section(s)
+18:47:34	Processed 1 config(s)
+18:53:43	Deploying WebResources
+18:53:43	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:53:43	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+18:53:45	myxrm_/iframe.html has not changed, skipping...
+18:53:45	Deployed 1 webresource(s)
+18:53:45	Publishing 1 webresources...
+18:53:51	Publish complete.
+18:53:51	Processed 1 section(s)
+18:53:51	Processed 1 config(s)
+18:57:32	Deploying WebResources
+18:57:32	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+18:57:32	Updating Webresource 'MainWebresources.js' -> 'myxrm_/mainwebresources.js'
+18:57:34	myxrm_/iframe.html has not changed, skipping...
+18:57:34	Deployed 1 webresource(s)
+18:57:34	Publishing 1 webresources...
+18:57:40	Publish complete.
+18:57:40	Processed 1 section(s)
+18:57:40	Processed 1 config(s)
