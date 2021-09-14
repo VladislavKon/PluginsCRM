@@ -1,13 +1,21 @@
 const path = require('path');
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
-  //entry: ['./Webresources/src/FieldsChecker.js',  
-  //      './Webresources/src/regionAuto.js',
-  //      './Webresources/src/SaveAndClose.js',
-  //      './Webresources/src/FilterLookup.js',
-  //      './Webresources/src/iframeAnnotation.js',        
-   // ],
-    entry: './Webresources/src/Main.js',
+    optimization: {
+        minimize: true,
+        minimizer: [
+            new TerserPlugin({
+                terserOptions: {
+                    format: {
+                        comments: false,
+                    },
+                },
+                extractComments: false,
+            }),
+        ],
+    },  
+    entry: './Webresources/src/Main.ts',
     output: {
         filename: 'MainWebresources.js',
         path: path.resolve(__dirname, 'Webresources/dist'),
@@ -17,14 +25,23 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.ts$/,
+                include: [path.resolve(__dirname, 'Webresources/src')],
+                use: 'ts-loader',
+            },
+            {
                 test: /\.css/,
                 use: ["style-loader", "css-loader"],                
-            }
+            },            
         ]
     },
-  mode: 'development',
-  watch: true,
-  watchOptions: {
+    resolve: {
+        extensions: ['.ts', '.js'],
+    },
+    devtool: 'inline-source-map',
+    mode: 'development',
+    watch: true,
+    watchOptions: {
       aggregateTimeout: 500,
       poll: 3000,
       ignored: /node_modules/

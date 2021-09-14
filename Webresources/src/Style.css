@@ -1,5 +1,8 @@
 ﻿html {
-    background: linear-gradient(to bottom right, #FFA49D, #C6FFFC);
+    background: linear-gradient(to bottom right, #FFA49D, #C6FFFC) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
     background-size: cover;
     font-family: cursive;
     font-style: initial;

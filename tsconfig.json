@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "outDir": "./Webresources/dist/",
+      "module": "CommonJS",
+      "target": "es5",
+      "esModuleInterop": true,
+      "sourceMap": true
+    },
+    "include": ["Webresources/src/**/*"]
+}

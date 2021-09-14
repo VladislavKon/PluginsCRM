@@ -1,31 +1,27 @@
-﻿require('./Style.css')
-function GetAnnotations() {
+require('./Style.css')
+export function GetAnnotations() {
     try {
         var parent = window.parent;
-        var table = document.getElementById("myTable");
-        var rowCount = table.rows.length;
+        var table = document.getElementById("myTable");        
         var contId = parent.Xrm.Page.data.entity.getId()
         var Entity = "annotation";
         var Select = "?$select=_objectid_value, notetext, subject, annotationid";
         var Filter = "&$filter=_objectid_value eq '" + contId + "'";
         parent.Xrm.WebApi.retrieveMultipleRecords(Entity, Select + Filter).then(
             function success(result) {
-                if (result != null && table.rows.length != result.entities.length) {
-                    //for (var i = 0; i < rowCount; i++) {
-                    //    table.deleteRow(i);
-                    //}
-                    if (table.rows.length>0) {
+                if (result != null && table.childNodes.length != result.entities.length) {                    
+                    if (table.childNodes.length>0) {
                         while (table.hasChildNodes()) {
                             table.removeChild(table.childNodes[0]);
                         }                    
                     }
-                    var promise = new Promise(function (resolve) {
+                    var promise = new Promise(void function (resolve) {
                         WriteAnnotation(result.entities);
                         resolve();
                     });
-                    promise.then(() => {setTimeout(GetAnnotations(), 2000) });
+                    promise.then(() => {setTimeout(()=>GetAnnotations(), 2000) });
                 }
-                else setTimeout(GetAnnotations(), 2000);
+                else setTimeout(()=>GetAnnotations(), 2000);
                 
             }
         );        
@@ -62,17 +58,7 @@ function WriteAnnotation(result) {
         table.appendChild(td3);
     });
 }
-function DeleteAnno(recordId) {
+export function DeleteAnno(recordId) {
     var parent = window.parent;
-    parent.Xrm.WebApi.deleteRecord("annotation", recordId).then(function successCallback() { location.reload(true) });
+    parent.Xrm.WebApi.deleteRecord("annotation", recordId).then(function successCallback() { location.reload() });
 }
-
-module.exports = {
-    Anno: function () {
-        GetAnnotations();        
-    },
-    Delete: function (recordId) {
-        DeleteAnno(recordId);
-    },   
-};
-
