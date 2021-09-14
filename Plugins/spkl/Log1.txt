@@ -77,3 +77,5 @@
 18:29:17	Checking assembly 'Plugins.dll' for plugins
 18:29:17	1 plugin(s) found!
 18:29:17	Processed 1 config(s)
+18:12:02	Deploying WebResources
+18:12:02	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Plugins'

@@ -5,23 +5,28 @@ export function GetAnnotations() {
         var table = document.getElementById("myTable");        
         var contId = parent.Xrm.Page.data.entity.getId()
         var Entity = "annotation";
-        var Select = "?$select=_objectid_value, notetext, subject, annotationid";
+        var Select = "?$select=_objectid_value, notetext, subject, annotationid, createdon";
         var Filter = "&$filter=_objectid_value eq '" + contId + "'";
         parent.Xrm.WebApi.retrieveMultipleRecords(Entity, Select + Filter).then(
-            function success(result) {
+            async function success(result) {
                 if (result != null && table.childNodes.length != result.entities.length) {                    
                     if (table.childNodes.length>0) {
                         while (table.hasChildNodes()) {
                             table.removeChild(table.childNodes[0]);
                         }                    
                     }
-                    var promise = new Promise(void function (resolve) {
-                        WriteAnnotation(result.entities);
-                        resolve();
-                    });
-                    promise.then(() => {setTimeout(()=>GetAnnotations(), 2000) });
+                    await WriteAnnotation(result.entities.sort(function (a, b) {
+                        if (a.createdon > b.createdon) {
+                          return 1;
+                        }
+                        if (a.createdon < b.createdon) {
+                          return -1;
+                        }                        
+                        return 0;
+                      }))                  
+                    setTimeout(()=>GetAnnotations(), 4000);
                 }
-                else setTimeout(()=>GetAnnotations(), 2000);
+                else setTimeout(()=>GetAnnotations(), 4000);
                 
             }
         );        
@@ -49,7 +54,7 @@ function WriteAnnotation(result) {
         td3.setAttribute("class", "cell");
         td3.setAttribute("align", "center");
         button.setAttribute("value", item.annotationid);
-        button.setAttribute("onclick", "WebResources.iframe.Delete(this.value)");
+        button.setAttribute("onclick", "WebResources.iframe.deleteAnno(this.value)");
 
         td3.appendChild(button);
         table.appendChild(tr);

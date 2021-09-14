@@ -5,6 +5,6 @@ export namespace filter {
     export const filterCity = filterLookup.filterLookup;     
 }
 export namespace iframe {
-    export const GetAnnotations = iframeAnnotation.GetAnnotations;
-    export const DeleteAnno = iframeAnnotation.DeleteAnno;
+    export const getAnnotations = iframeAnnotation.GetAnnotations;
+    export const deleteAnno = iframeAnnotation.DeleteAnno;
 }
