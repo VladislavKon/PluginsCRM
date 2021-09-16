@@ -2632,3 +2632,221 @@
 18:39:23	Publish complete.
 18:39:23	Processed 1 section(s)
 18:39:23	Processed 1 config(s)
+11:55:24	Deploying WebResources
+11:55:24	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+11:56:24	Deploying WebResources
+11:56:24	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+11:56:24	Updating Webresource 'main.js' -> 'myxrm_/mainwebresources.js'
+11:57:29	Deploying WebResources
+11:57:29	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+11:57:29	Updating Webresource 'assets/main.js' -> 'myxrm_/mainwebresources.js'
+12:07:08	Deploying WebResources
+12:07:08	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+12:07:09	Creating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+12:07:11	Creating Webresource 'assets/vendors.js' -> 'myxrm_/assets/vendors.js'
+12:07:11	Creating Webresource 'index.html' -> 'myxrm_/index.html'
+12:07:12	Deployed 3 webresource(s)
+12:07:12	Publishing 3 webresources...
+12:07:34	Publish complete.
+12:07:34	Processed 1 section(s)
+12:07:34	Processed 1 config(s)
+12:26:22	Deploying WebResources
+12:26:22	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+12:26:22	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+12:26:23	Updating Webresource 'assets/vendors.js' -> 'myxrm_/assets/vendors.js'
+12:26:24	Updating Webresource 'index.html' -> 'myxrm_/index.html'
+12:26:24	Deployed 3 webresource(s)
+12:26:24	Publishing 3 webresources...
+12:26:29	Publish complete.
+12:26:29	Processed 1 section(s)
+12:26:29	Processed 1 config(s)
+12:30:57	Deploying WebResources
+12:30:57	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+12:30:57	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+12:30:58	myxrm_/assets/vendors.js has not changed, skipping...
+12:30:58	myxrm_/index.html has not changed, skipping...
+12:30:58	Deployed 1 webresource(s)
+12:30:58	Publishing 1 webresources...
+12:31:04	Publish complete.
+12:31:04	Processed 1 section(s)
+12:31:04	Processed 1 config(s)
+12:46:46	Deploying WebResources
+12:46:46	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+12:46:46	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+12:46:47	myxrm_/assets/vendors.js has not changed, skipping...
+12:46:47	myxrm_/index.html has not changed, skipping...
+12:46:47	Deployed 1 webresource(s)
+12:46:47	Publishing 1 webresources...
+12:46:53	Publish complete.
+12:46:53	Processed 1 section(s)
+12:46:53	Processed 1 config(s)
+13:51:02	Deploying WebResources
+13:51:02	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+13:51:02	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+13:51:06	myxrm_/assets/vendors.js has not changed, skipping...
+13:51:06	myxrm_/index.html has not changed, skipping...
+13:51:06	Deployed 1 webresource(s)
+13:51:06	Publishing 1 webresources...
+13:51:24	Publish complete.
+13:51:24	Processed 1 section(s)
+13:51:24	Processed 1 config(s)
+14:43:39	Deploying WebResources
+14:43:39	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+14:43:40	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+14:43:41	Updating Webresource 'assets/vendors.js' -> 'myxrm_/assets/vendors.js'
+14:43:42	myxrm_/index.html has not changed, skipping...
+14:43:42	Deployed 2 webresource(s)
+14:43:42	Publishing 2 webresources...
+14:43:55	Publish complete.
+14:43:55	Processed 1 section(s)
+14:43:55	Processed 1 config(s)
+15:51:47	Deploying WebResources
+15:51:47	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+15:51:48	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+15:51:50	Updating Webresource 'assets/vendors.js' -> 'myxrm_/assets/vendors.js'
+15:51:51	Updating Webresource 'index.html' -> 'myxrm_/index.html'
+15:51:51	Deployed 3 webresource(s)
+15:51:51	Publishing 3 webresources...
+15:52:16	Publish complete.
+15:52:16	Processed 1 section(s)
+15:52:16	Processed 1 config(s)
+16:01:30	Deploying WebResources
+16:01:30	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:01:31	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+16:01:32	myxrm_/assets/vendors.js has not changed, skipping...
+16:01:32	myxrm_/index.html has not changed, skipping...
+16:01:32	Deployed 1 webresource(s)
+16:01:32	Publishing 1 webresources...
+16:01:40	Publish complete.
+16:01:40	Processed 1 section(s)
+16:01:40	Processed 1 config(s)
+16:10:05	Deploying WebResources
+16:10:05	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:10:05	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+16:10:06	myxrm_/assets/vendors.js has not changed, skipping...
+16:10:06	Updating Webresource 'index.html' -> 'myxrm_/index.html'
+16:10:07	Deployed 2 webresource(s)
+16:10:07	Publishing 2 webresources...
+16:10:14	Publish complete.
+16:10:14	Processed 1 section(s)
+16:10:14	Processed 1 config(s)
+16:12:20	Deploying WebResources
+16:12:20	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:12:20	myxrm_/assets/main.js has not changed, skipping...
+16:12:21	myxrm_/assets/vendors.js has not changed, skipping...
+16:12:21	Updating Webresource 'index.html' -> 'myxrm_/index.html'
+16:12:21	Deployed 1 webresource(s)
+16:12:21	Publishing 1 webresources...
+16:12:26	Publish complete.
+16:12:26	Processed 1 section(s)
+16:12:26	Processed 1 config(s)
+16:16:27	Deploying WebResources
+16:16:27	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:16:27	myxrm_/assets/main.js has not changed, skipping...
+16:16:27	myxrm_/assets/vendors.js has not changed, skipping...
+16:16:28	Updating Webresource 'index.html' -> 'myxrm_/index.html'
+16:16:28	Deployed 1 webresource(s)
+16:16:28	Publishing 1 webresources...
+16:16:34	Publish complete.
+16:16:34	Processed 1 section(s)
+16:16:34	Processed 1 config(s)
+16:32:46	Deploying WebResources
+16:32:46	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:32:46	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+16:32:48	Updating Webresource 'assets/vendors.js' -> 'myxrm_/assets/vendors.js'
+16:32:49	Updating Webresource 'index.html' -> 'myxrm_/index.html'
+16:32:49	Deployed 3 webresource(s)
+16:32:49	Publishing 3 webresources...
+16:32:58	Publish complete.
+16:32:58	Processed 1 section(s)
+16:32:58	Processed 1 config(s)
+16:44:42	Deploying WebResources
+16:44:42	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:44:43	myxrm_/assets/main.js has not changed, skipping...
+16:44:43	myxrm_/assets/vendors.js has not changed, skipping...
+16:44:43	myxrm_/index.html has not changed, skipping...
+16:44:43	Deployed 0 webresource(s)
+16:44:43	Publishing 0 webresources...
+16:44:43	Publish complete.
+16:44:43	Processed 1 section(s)
+16:44:43	Processed 1 config(s)
+16:52:16	Deploying WebResources
+16:52:17	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:52:17	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+16:52:18	Updating Webresource 'assets/vendors.js' -> 'myxrm_/assets/vendors.js'
+16:52:19	myxrm_/index.html has not changed, skipping...
+16:52:19	Deployed 2 webresource(s)
+16:52:19	Publishing 2 webresources...
+16:52:25	Publish complete.
+16:52:25	Processed 1 section(s)
+16:52:25	Processed 1 config(s)
+16:57:18	Deploying WebResources
+16:57:18	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:57:19	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+16:57:19	myxrm_/assets/vendors.js has not changed, skipping...
+16:57:20	myxrm_/index.html has not changed, skipping...
+16:57:20	Deployed 1 webresource(s)
+16:57:20	Publishing 1 webresources...
+16:57:24	Publish complete.
+16:57:24	Processed 1 section(s)
+16:57:24	Processed 1 config(s)
+16:58:31	Deploying WebResources
+16:58:31	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+16:58:32	myxrm_/assets/main.js has not changed, skipping...
+16:58:32	myxrm_/assets/vendors.js has not changed, skipping...
+16:58:32	myxrm_/index.html has not changed, skipping...
+16:58:32	Deployed 0 webresource(s)
+16:58:32	Publishing 0 webresources...
+16:58:32	Publish complete.
+16:58:32	Processed 1 section(s)
+16:58:32	Processed 1 config(s)
+17:01:21	Deploying WebResources
+17:01:21	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:01:21	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+17:01:22	myxrm_/assets/vendors.js has not changed, skipping...
+17:01:23	myxrm_/index.html has not changed, skipping...
+17:01:23	Deployed 1 webresource(s)
+17:01:23	Publishing 1 webresources...
+17:01:28	Publish complete.
+17:01:28	Processed 1 section(s)
+17:01:28	Processed 1 config(s)
+17:09:12	Deploying WebResources
+17:09:12	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:09:13	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+17:09:14	Updating Webresource 'assets/vendors.js' -> 'myxrm_/assets/vendors.js'
+17:09:14	Updating Webresource 'index.html' -> 'myxrm_/index.html'
+17:09:15	Deployed 3 webresource(s)
+17:09:15	Publishing 3 webresources...
+17:09:21	Publish complete.
+17:09:21	Processed 1 section(s)
+17:09:21	Processed 1 config(s)
+17:21:19	Deploying WebResources
+17:21:19	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:21:19	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+17:21:20	Updating Webresource 'assets/vendors.js' -> 'myxrm_/assets/vendors.js'
+17:21:21	Updating Webresource 'index.html' -> 'myxrm_/index.html'
+17:21:21	Deployed 3 webresource(s)
+17:21:21	Publishing 3 webresources...
+17:21:27	Publish complete.
+17:21:27	Processed 1 section(s)
+17:21:27	Processed 1 config(s)
+17:28:45	Deploying WebResources
+17:28:45	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:28:45	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+17:28:47	Updating Webresource 'assets/vendors.js' -> 'myxrm_/assets/vendors.js'
+17:28:49	Updating Webresource 'index.html' -> 'myxrm_/index.html'
+17:28:50	Deployed 3 webresource(s)
+17:28:50	Publishing 3 webresources...
+17:28:55	Publish complete.
+17:28:55	Processed 1 section(s)
+17:28:55	Processed 1 config(s)
+17:50:15	Deploying WebResources
+17:50:15	Using Config 'C:\Users\Trainee_2\source\repos\Plugins\Webresources'
+17:50:16	Updating Webresource 'assets/main.js' -> 'myxrm_/assets/main.js'
+17:50:17	Updating Webresource 'assets/vendors.js' -> 'myxrm_/assets/vendors.js'
+17:50:19	Updating Webresource 'index.html' -> 'myxrm_/index.html'
+17:50:19	Deployed 3 webresource(s)
+17:50:19	Publishing 3 webresources...
+17:50:26	Publish complete.
+17:50:26	Processed 1 section(s)
+17:50:26	Processed 1 config(s)

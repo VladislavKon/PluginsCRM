@@ -5,13 +5,18 @@
       "root": "dist/",
       "files": [
         {
-          "uniquename": "myxrm_/mainwebresources.js",
-          "file": "MainWebresources.js",
+          "uniquename": "myxrm_/assets/main.js",
+          "file": "assets/main.js",
           "description": ""
         },
         {
-          "uniquename": "myxrm_/iframe.html",
-          "file": "iframe.html",
+          "uniquename": "myxrm_/assets/vendors.js",
+          "file": "assets/vendors.js",
+          "description": ""
+        },
+        {
+          "uniquename": "myxrm_/index.html",
+          "file": "index.html",
           "description": ""
         }
       ]

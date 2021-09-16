@@ -6,8 +6,11 @@
     background-size: cover;
     font-family: cursive;
     font-style: initial;
+    align-content: center;
+    text-align: center;
 }
-.table {
+.table {    
+    border:solid;
     border-style: inset;
     padding: 4px;
     border-radius: 10px;
@@ -19,15 +22,22 @@
     border-radius: 5px;
     text-align: center;
     font-size: small;
-    width: 25%;
+    width: 25%;    
 }
-.cell2 {
+.cell2{
     border-style: inset;
     padding: 2px;
     border-radius: 5px;
     text-align: center;
     font-size: small;
-    width: 50%;
+    width: 70%;
+}
+.button {
+    border-style: inset;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;    
 }
 
     

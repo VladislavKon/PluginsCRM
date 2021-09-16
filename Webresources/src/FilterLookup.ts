@@ -11,7 +11,7 @@ function addCustomeLookupFilter(formContext: Xrm.FormContext) {
     }
 }
 
-export function filterLookup(executionContext: any) {
+export function filterLookup(executionContext: Xrm.Events.EventContext) {
     try {
         var formContext : Xrm.FormContext = executionContext.getFormContext();
         if (formContext.getControl("new_region") != null && formContext.getControl("new_region") != undefined) {
